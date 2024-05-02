@@ -1,0 +1,12 @@
+-- Create a table to store results
+$ hive> CREATE TABLE files (line STRING);
+
+-- Load data into the database using a file on your local system (NOT HDFS)
+$ hive> LOAD DATA LOCAL INPATH '/root/input.txt' INTO TABLE files;
+
+-- Create a new table using data from the files table
+$ hive> CREATE TABLE word_counts AS
+      > SELECT word, count(1) AS count FROM
+      > (SELECT explode(split(line, ' ')) AS word FROM files) w
+      > GROUP BY word
+      > ORDER BY word;
