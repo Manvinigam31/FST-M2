@@ -1,0 +1,29 @@
+version: '3'
+services:
+    
+    simple-blog-api:
+        
+        image: 'manvinigam31/simple-blog-api'
+        ports:
+            - '3000:3000'
+        environment:
+            - POSTGRES_HOST=postgres_db
+
+            - POSTGRES_DB=simple_blog_api
+            - POSTGRES_PASSWORD=postgres_password
+            - POSTGRES_USERNAME=postgres
+            - POSTGRES_PORT=5432
+
+        build:
+           
+           dockerfile: Dockerfile #For prod change it to Dockerfile.prod
+          
+
+    # Postgress Database
+    postgres_db:
+        image: 'postgres:latest'
+        environment:
+            - POSTGRES_PASSWORD=postgres_password
+            - POSTGRES_USERNAME=postgres
+            - POSTGRES_DB=simple_blog_api
+   
