@@ -1,0 +1,12 @@
+-- Step 1: Load text file B into a Hive table
+LOAD DATA LOCAL INPATH '/root/inputs/episodeIV_dialogues.txt' OVERWRITE INTO TABLE starwars_dialogues;
+
+
+
+-- Step 2: Count the number of lines that have the word 'Luke' at least once
+SELECT COUNT(*) AS number_of_dialogues FROM starwars_dialogues WHERE dialogue LIKE '%Luke%';
+
+
+-- Step 3: Save the results in HDFS
+INSERT OVERWRITE DIRECTORY '/root/inputs/Project_Activity2hiveoutput' ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
+SELECT COUNT(*) AS number_of_dialogues FROM starwars_dialogues WHERE dialogue LIKE '%Luke%';
