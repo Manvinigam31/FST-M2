@@ -1,0 +1,16 @@
+CREATE TABLE episodeIVdialoguetable (name STRING, line STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '\t' TBLPROPERTIES ("skip.header.line.count"="2");
+
+-- Step 1: Load text file  into a Hive table
+LOAD DATA LOCAL INPATH '/root/inputs/episodeIV_dialogues.txt'  INTO TABLE episodeIVdialoguetable;
+
+
+
+-- Step 2: Count the number of lines that have the word 'Luke' at least once
+SELECT COUNT(*) AS number_of_dialogues FROM episodeIVdialoguetable WHERE dialogue LIKE '%Luke%' ;
+
+
+-- Step 3: Save the results in HDFS
+INSERT OVERWRITE DIRECTORY '/root/inputs/Project_Activity2hiveoutput' ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
+
+SELECT COUNT(*) AS number_of_dialogues FROM starwars_dialogues WHERE dialogue LIKE '%Luke%';

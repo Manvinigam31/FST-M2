@@ -1,0 +1,21 @@
+-- Create tables to store results
+CREATE TABLE IF NOT EXISTS starwars_dialogues (characters STRING, dialogue STRING) ROW FORMAT DELIMITED 
+FIELDS TERMINATED BY '\t' STORED AS TEXTFILE;
+
+
+-- Load data into the database using a file on your local system (NOT HDFS)
+LOAD DATA LOCAL INPATH '/root/inputs/episodeIV_dialogues.txt' OVERWRITE INTO TABLE starwars_dialogues;
+LOAD DATA LOCAL INPATH '/root/inputs/episodeV_dialogues.txt' OVERWRITE INTO TABLE starwars_dialogues;
+LOAD DATA LOCAL INPATH '/root/inputs/episodeVI_dialogues.txt' OVERWRITE INTO TABLE starwars_dialogues;
+
+---- Order the output in descending order by the number of lines spoke
+SELECT characters, COUNT(*) AS lines_spoke FROM starwars_dialogues
+GROUP BY characters ORDER BY lines_spoke DESC;
+
+
+
+--  Save the results in HDFS
+INSERT OVERWRITE DIRECTORY '/root/inputs/Project_Activity1hiveoutput' ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
+SELECT characters, COUNT(*) AS lines_spoke FROM starwars_dialogues GROUP BY characters
+ORDER BY lines_spoke DESC;
+
