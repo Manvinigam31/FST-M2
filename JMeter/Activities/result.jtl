@@ -1,0 +1,101 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1710927618544,1560,GET Request,200,OK,Thread Group 1-1,text,true,,4117,152,5,5,https://petstore.swagger.io/v2/pet/findByStatus?status=sold,1556,0,1316
+1710927620107,240,POST Request,200,OK,Thread Group 1-1,text,true,,406,251,5,5,https://petstore.swagger.io/v2/pet,239,0,0
+1710927620382,231,GET Pet By status,200,OK,Thread Group 1-1,text,true,,479,153,5,5,https://petstore.swagger.io/v2/pet/findByStatus?status=alive,230,0,0
+1710927620613,231,Delete Pet,200,OK,Thread Group 1-1,text,true,,384,219,5,5,https://petstore.swagger.io/v2/pet/65289,231,0,0
+1710927620846,979,GET Request,200,OK,Thread Group 1-2,text,true,,4117,152,5,5,https://petstore.swagger.io/v2/pet/findByStatus?status=sold,978,0,739
+1710927621826,239,POST Request,200,OK,Thread Group 1-2,text,true,,406,251,5,5,https://petstore.swagger.io/v2/pet,238,0,0
+1710927622066,242,GET Pet By status,200,OK,Thread Group 1-2,text,true,,479,153,5,5,https://petstore.swagger.io/v2/pet/findByStatus?status=alive,242,0,0
+1710927622308,239,Delete Pet,200,OK,Thread Group 1-2,text,true,,384,219,5,5,https://petstore.swagger.io/v2/pet/65289,239,0,0
+1710927622550,957,GET Request,200,OK,Thread Group 1-3,text,true,,4117,152,5,5,https://petstore.swagger.io/v2/pet/findByStatus?status=sold,956,0,719
+1710927623508,241,POST Request,200,OK,Thread Group 1-3,text,true,,406,251,5,5,https://petstore.swagger.io/v2/pet,241,0,0
+1710927623751,273,GET Pet By status,200,OK,Thread Group 1-3,text,true,,479,153,5,5,https://petstore.swagger.io/v2/pet/findByStatus?status=alive,273,0,0
+1710927624024,240,Delete Pet,200,OK,Thread Group 1-3,text,true,,384,219,5,5,https://petstore.swagger.io/v2/pet/65289,240,0,0
+1710927624266,964,GET Request,200,OK,Thread Group 1-4,text,true,,4117,152,5,5,https://petstore.swagger.io/v2/pet/findByStatus?status=sold,963,0,728
+1710927625230,235,POST Request,200,OK,Thread Group 1-4,text,true,,406,251,5,5,https://petstore.swagger.io/v2/pet,234,0,0
+1710927625467,233,GET Pet By status,200,OK,Thread Group 1-4,text,true,,479,153,5,5,https://petstore.swagger.io/v2/pet/findByStatus?status=alive,233,0,0
+1710927625701,239,Delete Pet,200,OK,Thread Group 1-4,text,true,,384,219,5,5,https://petstore.swagger.io/v2/pet/65289,239,0,0
+1710927625941,989,GET Request,200,OK,Thread Group 1-5,text,true,,4117,152,5,5,https://petstore.swagger.io/v2/pet/findByStatus?status=sold,989,0,744
+1710927626931,244,POST Request,200,OK,Thread Group 1-5,text,true,,406,251,5,5,https://petstore.swagger.io/v2/pet,244,0,0
+1710927627176,243,GET Pet By status,200,OK,Thread Group 1-5,text,true,,479,153,5,5,https://petstore.swagger.io/v2/pet/findByStatus?status=alive,243,0,0
+1710927627420,252,Delete Pet,200,OK,Thread Group 1-5,text,true,,384,219,5,5,https://petstore.swagger.io/v2/pet/65289,252,0,0
+1710927627673,244,GET Request,200,OK,Thread Group 1-1,text,true,,4117,152,5,5,https://petstore.swagger.io/v2/pet/findByStatus?status=sold,244,0,0
+1710927627919,231,POST Request,200,OK,Thread Group 1-1,text,true,,406,251,5,5,https://petstore.swagger.io/v2/pet,231,0,0
+1710927628151,232,GET Pet By status,200,OK,Thread Group 1-1,text,true,,479,153,5,5,https://petstore.swagger.io/v2/pet/findByStatus?status=alive,231,0,0
+1710927628384,231,Delete Pet,200,OK,Thread Group 1-1,text,true,,384,219,5,5,https://petstore.swagger.io/v2/pet/65289,231,0,0
+1710927628617,241,GET Request,200,OK,Thread Group 1-2,text,true,,4117,152,5,5,https://petstore.swagger.io/v2/pet/findByStatus?status=sold,241,0,0
+1710927628859,241,POST Request,200,OK,Thread Group 1-2,text,true,,406,251,5,5,https://petstore.swagger.io/v2/pet,241,0,0
+1710927629101,240,GET Pet By status,200,OK,Thread Group 1-2,text,true,,479,153,5,5,https://petstore.swagger.io/v2/pet/findByStatus?status=alive,239,0,0
+1710927629342,239,Delete Pet,200,OK,Thread Group 1-2,text,true,,384,219,5,5,https://petstore.swagger.io/v2/pet/65289,239,0,0
+1710927629582,245,GET Request,200,OK,Thread Group 1-3,text,true,,4117,152,5,5,https://petstore.swagger.io/v2/pet/findByStatus?status=sold,244,0,0
+1710927629828,236,POST Request,200,OK,Thread Group 1-3,text,true,,406,251,5,5,https://petstore.swagger.io/v2/pet,235,0,0
+1710927630070,244,GET Pet By status,200,OK,Thread Group 1-3,text,true,,479,153,5,5,https://petstore.swagger.io/v2/pet/findByStatus?status=alive,244,0,0
+1710927630315,239,Delete Pet,200,OK,Thread Group 1-3,text,true,,384,219,5,5,https://petstore.swagger.io/v2/pet/65289,239,0,0
+1710927630556,239,GET Request,200,OK,Thread Group 1-4,text,true,,4117,152,5,5,https://petstore.swagger.io/v2/pet/findByStatus?status=sold,238,0,0
+1710927630795,237,POST Request,200,OK,Thread Group 1-4,text,true,,406,251,5,5,https://petstore.swagger.io/v2/pet,237,0,0
+1710927631033,237,GET Pet By status,200,OK,Thread Group 1-4,text,true,,479,153,5,5,https://petstore.swagger.io/v2/pet/findByStatus?status=alive,237,0,0
+1710927631271,237,Delete Pet,200,OK,Thread Group 1-4,text,true,,384,219,5,5,https://petstore.swagger.io/v2/pet/65289,237,0,0
+1710927631510,245,GET Request,200,OK,Thread Group 1-5,text,true,,4117,152,5,5,https://petstore.swagger.io/v2/pet/findByStatus?status=sold,245,0,0
+1710927631757,243,POST Request,200,OK,Thread Group 1-5,text,true,,406,251,5,5,https://petstore.swagger.io/v2/pet,242,0,0
+1710927632000,244,GET Pet By status,200,OK,Thread Group 1-5,text,true,,479,153,5,5,https://petstore.swagger.io/v2/pet/findByStatus?status=alive,243,0,0
+1710927632244,244,Delete Pet,200,OK,Thread Group 1-5,text,true,,384,219,5,5,https://petstore.swagger.io/v2/pet/65289,244,0,0
+1710927632489,235,GET Request,200,OK,Thread Group 1-1,text,true,,4117,152,5,5,https://petstore.swagger.io/v2/pet/findByStatus?status=sold,235,0,0
+1710927632725,231,POST Request,200,OK,Thread Group 1-1,text,true,,406,251,5,5,https://petstore.swagger.io/v2/pet,231,0,0
+1710927632957,232,GET Pet By status,200,OK,Thread Group 1-1,text,true,,479,153,5,5,https://petstore.swagger.io/v2/pet/findByStatus?status=alive,232,0,0
+1710927633189,231,Delete Pet,200,OK,Thread Group 1-1,text,true,,384,219,5,5,https://petstore.swagger.io/v2/pet/65289,231,0,0
+1710927633421,230,GET Request,200,OK,Thread Group 1-1,text,true,,4117,152,5,5,https://petstore.swagger.io/v2/pet/findByStatus?status=sold,230,0,0
+1710927633651,231,POST Request,200,OK,Thread Group 1-1,text,true,,406,251,5,5,https://petstore.swagger.io/v2/pet,230,0,0
+1710927633883,231,GET Pet By status,200,OK,Thread Group 1-1,text,true,,479,153,5,5,https://petstore.swagger.io/v2/pet/findByStatus?status=alive,231,0,0
+1710927634114,233,Delete Pet,200,OK,Thread Group 1-1,text,true,,384,219,5,5,https://petstore.swagger.io/v2/pet/65289,233,0,0
+1710927634348,252,GET Request,200,OK,Thread Group 1-2,text,true,,4117,152,5,5,https://petstore.swagger.io/v2/pet/findByStatus?status=sold,251,0,0
+1710927634600,239,POST Request,200,OK,Thread Group 1-2,text,true,,406,251,5,5,https://petstore.swagger.io/v2/pet,239,0,0
+1710927634840,238,GET Pet By status,200,OK,Thread Group 1-2,text,true,,479,153,5,5,https://petstore.swagger.io/v2/pet/findByStatus?status=alive,238,0,0
+1710927635079,239,Delete Pet,200,OK,Thread Group 1-2,text,true,,384,219,5,5,https://petstore.swagger.io/v2/pet/65289,239,0,0
+1710927635318,239,GET Request,200,OK,Thread Group 1-3,text,true,,4117,152,5,5,https://petstore.swagger.io/v2/pet/findByStatus?status=sold,239,0,0
+1710927635557,235,POST Request,200,OK,Thread Group 1-3,text,true,,406,251,5,5,https://petstore.swagger.io/v2/pet,235,0,0
+1710927635793,235,GET Pet By status,200,OK,Thread Group 1-3,text,true,,479,153,5,5,https://petstore.swagger.io/v2/pet/findByStatus?status=alive,235,0,0
+1710927636029,235,Delete Pet,200,OK,Thread Group 1-3,text,true,,384,219,5,5,https://petstore.swagger.io/v2/pet/65289,235,0,0
+1710927636265,236,GET Request,200,OK,Thread Group 1-4,text,true,,4117,152,5,5,https://petstore.swagger.io/v2/pet/findByStatus?status=sold,235,0,0
+1710927636503,245,POST Request,200,OK,Thread Group 1-4,text,true,,406,251,5,5,https://petstore.swagger.io/v2/pet,245,0,0
+1710927636749,233,GET Pet By status,200,OK,Thread Group 1-4,text,true,,479,153,5,5,https://petstore.swagger.io/v2/pet/findByStatus?status=alive,233,0,0
+1710927636983,235,Delete Pet,200,OK,Thread Group 1-4,text,true,,384,219,5,5,https://petstore.swagger.io/v2/pet/65289,235,0,0
+1710927637219,237,GET Request,200,OK,Thread Group 1-4,text,true,,4117,152,5,5,https://petstore.swagger.io/v2/pet/findByStatus?status=sold,237,0,0
+1710927637456,235,POST Request,200,OK,Thread Group 1-4,text,true,,406,251,5,5,https://petstore.swagger.io/v2/pet,235,0,0
+1710927637692,239,GET Pet By status,200,OK,Thread Group 1-4,text,true,,479,153,5,5,https://petstore.swagger.io/v2/pet/findByStatus?status=alive,239,0,0
+1710927637932,233,Delete Pet,200,OK,Thread Group 1-4,text,true,,384,219,5,5,https://petstore.swagger.io/v2/pet/65289,233,0,0
+1710927638165,245,GET Request,200,OK,Thread Group 1-5,text,true,,4117,152,5,5,https://petstore.swagger.io/v2/pet/findByStatus?status=sold,245,0,0
+1710927638411,243,POST Request,200,OK,Thread Group 1-5,text,true,,406,251,5,5,https://petstore.swagger.io/v2/pet,243,0,0
+1710927638655,245,GET Pet By status,200,OK,Thread Group 1-5,text,true,,479,153,5,5,https://petstore.swagger.io/v2/pet/findByStatus?status=alive,245,0,0
+1710927638900,243,Delete Pet,200,OK,Thread Group 1-5,text,true,,384,219,5,5,https://petstore.swagger.io/v2/pet/65289,243,0,0
+1710927639144,231,GET Request,200,OK,Thread Group 1-1,text,true,,4117,152,5,5,https://petstore.swagger.io/v2/pet/findByStatus?status=sold,231,0,0
+1710927639376,233,POST Request,200,OK,Thread Group 1-1,text,true,,406,251,5,5,https://petstore.swagger.io/v2/pet,232,0,0
+1710927639610,232,GET Pet By status,200,OK,Thread Group 1-1,text,true,,479,153,5,5,https://petstore.swagger.io/v2/pet/findByStatus?status=alive,232,0,0
+1710927639842,232,Delete Pet,200,OK,Thread Group 1-1,text,true,,384,219,5,5,https://petstore.swagger.io/v2/pet/65289,231,0,0
+1710927640074,240,GET Request,200,OK,Thread Group 1-2,text,true,,4117,152,4,4,https://petstore.swagger.io/v2/pet/findByStatus?status=sold,239,0,0
+1710927640314,240,POST Request,200,OK,Thread Group 1-2,text,true,,406,251,4,4,https://petstore.swagger.io/v2/pet,240,0,0
+1710927640555,239,GET Pet By status,200,OK,Thread Group 1-2,text,true,,479,153,4,4,https://petstore.swagger.io/v2/pet/findByStatus?status=alive,239,0,0
+1710927640795,240,Delete Pet,200,OK,Thread Group 1-2,text,true,,384,219,4,4,https://petstore.swagger.io/v2/pet/65289,240,0,0
+1710927641036,237,GET Request,200,OK,Thread Group 1-3,text,true,,4117,152,4,4,https://petstore.swagger.io/v2/pet/findByStatus?status=sold,236,0,0
+1710927641273,235,POST Request,200,OK,Thread Group 1-3,text,true,,406,251,4,4,https://petstore.swagger.io/v2/pet,235,0,0
+1710927641509,235,GET Pet By status,200,OK,Thread Group 1-3,text,true,,479,153,4,4,https://petstore.swagger.io/v2/pet/findByStatus?status=alive,235,0,0
+1710927641745,235,Delete Pet,200,OK,Thread Group 1-3,text,true,,384,219,4,4,https://petstore.swagger.io/v2/pet/65289,235,0,0
+1710927641980,236,GET Request,200,OK,Thread Group 1-3,text,true,,4117,152,4,4,https://petstore.swagger.io/v2/pet/findByStatus?status=sold,236,0,0
+1710927642216,236,POST Request,200,OK,Thread Group 1-3,text,true,,406,251,4,4,https://petstore.swagger.io/v2/pet,236,0,0
+1710927642453,235,GET Pet By status,200,OK,Thread Group 1-3,text,true,,479,153,4,4,https://petstore.swagger.io/v2/pet/findByStatus?status=alive,235,0,0
+1710927642688,237,Delete Pet,200,OK,Thread Group 1-3,text,true,,384,219,4,4,https://petstore.swagger.io/v2/pet/65289,236,0,0
+1710927642925,234,GET Request,200,OK,Thread Group 1-4,text,true,,4117,152,3,3,https://petstore.swagger.io/v2/pet/findByStatus?status=sold,234,0,0
+1710927643160,243,POST Request,200,OK,Thread Group 1-4,text,true,,406,251,3,3,https://petstore.swagger.io/v2/pet,243,0,0
+1710927643404,233,GET Pet By status,200,OK,Thread Group 1-4,text,true,,479,153,3,3,https://petstore.swagger.io/v2/pet/findByStatus?status=alive,233,0,0
+1710927643639,233,Delete Pet,200,OK,Thread Group 1-4,text,true,,384,219,3,3,https://petstore.swagger.io/v2/pet/65289,233,0,0
+1710927643873,244,GET Request,200,OK,Thread Group 1-5,text,true,,4117,152,2,2,https://petstore.swagger.io/v2/pet/findByStatus?status=sold,243,0,0
+1710927644117,243,POST Request,200,OK,Thread Group 1-5,text,true,,406,251,2,2,https://petstore.swagger.io/v2/pet,243,0,0
+1710927644361,243,GET Pet By status,200,OK,Thread Group 1-5,text,true,,479,153,2,2,https://petstore.swagger.io/v2/pet/findByStatus?status=alive,243,0,0
+1710927644604,244,Delete Pet,200,OK,Thread Group 1-5,text,true,,384,219,2,2,https://petstore.swagger.io/v2/pet/65289,243,0,0
+1710927644848,239,GET Request,200,OK,Thread Group 1-2,text,true,,4117,152,2,2,https://petstore.swagger.io/v2/pet/findByStatus?status=sold,239,0,0
+1710927645088,239,POST Request,200,OK,Thread Group 1-2,text,true,,406,251,2,2,https://petstore.swagger.io/v2/pet,239,0,0
+1710927645327,244,GET Pet By status,200,OK,Thread Group 1-2,text,true,,479,153,2,2,https://petstore.swagger.io/v2/pet/findByStatus?status=alive,244,0,0
+1710927645572,244,Delete Pet,200,OK,Thread Group 1-2,text,true,,384,219,2,2,https://petstore.swagger.io/v2/pet/65289,244,0,0
+1710927645817,245,GET Request,200,OK,Thread Group 1-5,text,true,,4117,152,1,1,https://petstore.swagger.io/v2/pet/findByStatus?status=sold,245,0,0
+1710927646063,243,POST Request,200,OK,Thread Group 1-5,text,true,,406,251,1,1,https://petstore.swagger.io/v2/pet,243,0,0
+1710927646307,243,GET Pet By status,200,OK,Thread Group 1-5,text,true,,479,153,1,1,https://petstore.swagger.io/v2/pet/findByStatus?status=alive,243,0,0
+1710927646550,243,Delete Pet,200,OK,Thread Group 1-5,text,true,,384,219,1,1,https://petstore.swagger.io/v2/pet/65289,243,0,0
